@@ -1,6 +1,6 @@
 # Análisis de la Industria Textil y de Confección en México (2018–2025)
 
-Proyecto de análisis de datos enfocado en la evolución de la industria textil y de confección en México utilizando Python, Streamlit y visualización de datos interactiva.
+Proyecto de análisis de datos enfocado en la evolución de la industria textil y de confección en México utilizando Python, Streamlit, Power BI y visualización de datos interactiva.
 
 ---
 
@@ -10,7 +10,17 @@ Este proyecto analiza el comportamiento de la industria textil y de confección 
 
 El objetivo principal fue identificar señales de recuperación, desaceleración y posibles cambios estructurales dentro de la cadena manufacturera nacional, particularmente en sectores relacionados con prendas de vestir y manufactura textil.
 
-El análisis combina exploración de datos, visualización interactiva y observaciones económicas para evaluar tendencias relevantes dentro del sector.
+El análisis combina exploración de datos, visualización interactiva y observaciones económicas para evaluar tendencias relevantes dentro del sector manufacturero mexicano.
+
+---
+
+## Objetivos del Análisis
+
+- Analizar el desempeño de la industria de confección y textil entre 2018 y 2025.
+- Comparar el comportamiento de exportaciones e importaciones del sector prendas.
+- Identificar señales de recuperación económica post-pandemia.
+- Evaluar posibles cambios estructurales dentro de la manufactura textil mexicana.
+- Comunicar hallazgos mediante dashboards interactivos y visualizaciones ejecutivas.
 
 ---
 
@@ -20,8 +30,8 @@ El análisis combina exploración de datos, visualización interactiva y observa
 - Pandas
 - Streamlit
 - Plotly
-- Excel
 - Power BI
+- Excel
 
 ---
 
@@ -54,22 +64,31 @@ Al mismo tiempo, la resiliencia observada en algunos segmentos textiles podría 
 
 ## Vista Previa del Dashboard
 
-Aquí se agregarán capturas de pantalla del dashboard interactivo, comparativas sectoriales, visualizaciones comerciales y hallazgos principales.
+### Dashboard Principal
+
+![Dashboard Principal](visuals/dashboard.png)
+
+### Dashboard Power BI
+
+![Dashboard Power BI](visuals/powerbi_dashboard.png)
 
 ---
 
-## Archivos del Proyecto
+## Estructura del Proyecto
 
-- Notebooks de análisis y limpieza de datos en Python
-- Dashboard interactivo en Streamlit
-- Visualizaciones y gráficos
-- Bases de datos utilizadas
-- Reporte complementario en Power BI
-
----
-
-## Pregunta de Investigación
-
-¿Está experimentando México una transformación estructural dentro de su industria textil y de confección?
-
-Los datos sugieren una posible transición gradual desde segmentos tradicionales de confección hacia actividades textiles con mayor especialización y valor agregado. Sin embargo, también abren preguntas sobre el impacto de la competencia internacional y el crecimiento acelerado de las importaciones dentro del mercado nacional.
+```plaintext
+mexico-manufacturing-analysis
+│
+├── data
+│   ├── Exportaciones.xlsx
+│   ├── Importaciones.xlsx
+│   ├── Indicadores confeccion.xls
+│   └── Indicadores textiles.xls
+│
+├── visuals
+│   ├── dashboard.png
+│   ├── powerbi_dashboard.png
+│   └── Industria Textil Mexicana.pdf
+│
+├── README.md
+└── .gitignore
