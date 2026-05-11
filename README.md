@@ -68,9 +68,10 @@ Al mismo tiempo, la resiliencia observada en algunos segmentos textiles podría 
 
 ![Dashboard Principal](visuals/dashboard.png)
 
-### Dashboard Power BI
 
-![Dashboard Power BI](visuals/Dashboard Power BI.png) 
+## Dashboard Power BI
+
+![Dashboard Power BI](visuals/Dashboard%20Power%20BI.png)
 
 ---
 
